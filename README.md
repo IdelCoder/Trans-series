@@ -30,6 +30,7 @@ class Config(object):
     ...
     self.testFlag = False
     self.loadFromData = False
+    self.tripleClassification = True
     ...
 ```
 * 执行后，设置标志位，用于验证三元组分类
@@ -37,9 +38,9 @@ class Config(object):
 class Config(object):
   def __init__(self):
     ...
-    self.testFlag = False
-    self.loadFromData = False
-    self.tripleClassification = False
+    self.testFlag = True
+    self.loadFromData = True
+    self.tripleClassification = True
     ...
 ```
 ## 数据说明
